@@ -4,4 +4,4 @@
 # If you change this key, all old signed cookies will become invalid!
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-Psybook::Application.config.secret_token = 'ffa2dc941bf0f833eb624a7a7c9bf467135610f0c9e6a5ac77cdab887c8eb671fcf0527934d83c8136c559c38bfb9b273d4b4aba521cbab9999c1fd2bba9c4d3'
+Treebook::Application.config.secret_token = '33556d6265e114f2a48ffc4d185dd9e27b33c4a43fb007bf48f0fbb1c7c2bc41b457aa0e95bd82449e5f85b5f6798690acc9c10e5eb512409cbb670d82d47fc5'
