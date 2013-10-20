@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20131013074830) do
+ActiveRecord::Schema.define(:version => 20120724212023) do
 
   create_table "statuses", :force => true do |t|
     t.text     "content"
@@ -31,7 +31,7 @@ ActiveRecord::Schema.define(:version => 20131013074830) do
     t.string   "reset_password_token"
     t.datetime "reset_password_sent_at"
     t.datetime "remember_created_at"
-    t.integer  "sign_in_count",          :default => 0,  :null => false
+    t.integer  "sign_in_count",          :default => 0
     t.datetime "current_sign_in_at"
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
